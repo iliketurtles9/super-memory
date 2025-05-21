@@ -1,0 +1,82 @@
+@media (max-width: 414px) {
+    .navbar {
+        padding: 15px 5%;
+    }
+
+    .navbar .logo {
+        font-size: 24px;
+    }
+
+    .navbar ul li {
+        margin-left: 15px;
+    }
+
+    .navbar ul li a {
+        font-size: 16px;
+    }
+
+    .home {
+        flex-direction: column;
+        padding: 40px 5% 0;
+        text-align: center;
+    }
+
+    .info h1 {
+        font-size: 40px;
+        padding-top: 200px;
+    }
+
+    .info h2 {
+        font-size: 24px;
+    }
+
+    .info p {
+        font-size: 14px;
+    }
+
+    .cv {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+
+    .info .btn-soc .social {
+        font-size: 16px;
+        gap: 15px;
+    }
+
+    .home-img .img-box {
+        width: 50vw;
+        height: 50vw;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    .home-img .img-box .img-item img {
+        left: 58%;
+        transform: translateX(-50%);
+        margin-top: -60px;
+        top: 10px;
+        width: 100%;
+        height: auto;
+    }
+
+    .home-img {
+        margin-left: 0;
+    }
+
+    #aboutme {
+        padding-top: 150px;
+        margin-bottom: 150px;
+    }
+
+    #aboutme p {
+        font-size: 20px;
+        max-width: 90%;
+        padding-top: 100px;
+    }
+
+    #skels {
+        padding-top: 88px;
+        margin-bottom: 150px;
+    }
+}
